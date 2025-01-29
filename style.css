@@ -1,40 +1,33 @@
-body{
-    font-family: 'calibri';
-    background-color:rgb(194, 202, 196);
-    text-decoration: none;
-    line-height: var(--wp--custom--typography--line-height--text);
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px
-}
 h1{
-    display: flex;
-    text-align: center;
+    font-family: 'calibri';
 }
 
-#header{
-    margin-left: 50%;
+img{
+    width: 17px;
 }
-
 button{
-    background-color: rgb(15, 121, 243);
-    border: none;
+    background-color: rgb(0, 119, 255);
     border-radius: 5px;
-    border-bottom: 2px;
-    border-top: 2px solid #000000
+    width: 20%;
+    height: 28px;
+    border: none;
 }
 
-h2{
-    color: #000000;
+input{
+    margin-left: 100px;
+    border: 2px solid #000000;
+    height: 30px;
+    border-radius: 10px;
 }
 
-#header-a{
-    border: 1px solid;
-    border-width: 1px;
-    width: 20px;
+.secret{
+    margin-left: 265px;
+   
 }
-header{
-    border: 1px solid #000000;
-    width: 100%;
+
+input:hover{
+    border-color: #ff0000;
+}
+.div{
+    border: 2px solid #000000;
 }
