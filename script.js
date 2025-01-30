@@ -9,3 +9,7 @@ function secret(){
     
     window.location.href = 'index.html'
 }
+
+function newh(){
+window.location.href = 'new_Vokabel.html'
+}
